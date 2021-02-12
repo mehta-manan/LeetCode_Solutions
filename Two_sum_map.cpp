@@ -22,7 +22,7 @@ public:
             // if required number is not in map
             if (ei.find(required_num) == ei.end())
             {
-                // add current number in map with it's index
+                // add current number in map with its index
                 ei[nums[i]] = i;
             }
             // if required number is in map
