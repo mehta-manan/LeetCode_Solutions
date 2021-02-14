@@ -1,5 +1,5 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 
 class Solution
 {
@@ -8,15 +8,15 @@ public:
     {
         // if last element is less than target,
         // then target should be at last of nums vector
-        if (nums[nums.size()-1] < target)
+        if (nums[nums.size() - 1] < target)
             return nums.size();
 
         // if first element is greater than target,
         // then target should be at beginning of nums vector
-        else if(nums[0] > target)
+        else if (nums[0] > target)
             return 0;
 
-        for (int i = 0; i < nums.size();i++)
+        for (int i = 0; i < nums.size(); i++)
         {
             // if element if found or if element is greater than target
             // return element index
