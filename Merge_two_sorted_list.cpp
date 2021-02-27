@@ -25,11 +25,11 @@ public:
 
         // if list 1 is NULL, return list 2
         else if (l1 == NULL)
-            tempListNodeRef = l2;
+            return l2;
 
         // if list 2 is NULL, return list 1
         else if (l2 == NULL)
-            tempListNodeRef = l1;
+            return l1;
 
         // if both list contains data
         else
